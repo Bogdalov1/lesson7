@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+html {
+	font-size: 16px;
+	color: #4B4B4B;
+	/* по умолчанию */
+}
+
+body {
+	line-height: 1;
+	/* font-family: "Roboto"; */
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	background-color: #f5f5f5;
+}
+
+
+/* .who_we_ar_conteiner {
+	max-width: 1020px;
+	margin: 0 auto;
+	border: 1px solid black;
+	padding: 100px 87px 0 87px;
+	background: white url('../img/Gears.png') 100% 0 no-repeat;
+}
+
+.who_we_ar_content {}
+
+.who_we_ar_subtitle {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 27px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	margin: 0px 0px 28px 0px;
+   background: url('../img/ikon.png') 0 0 no-repeat;
+}
+
+.Who_we_are_title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #02133C;
+	max-width: 583px;
+	margin: 0px 0px 32px 0px;
+}
+
+.Who_we_are_text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	margin: 0px 0px 54px 0px;
+}
+
+.image {
+	margin: 0px 0px -120px 0px;
+}
+
+.footer {} */
+/*                          Урок 7                                       */
+.exercise_1,
+.exercise_2,
+.exercise_3,
+.exercise_4,
+.exercise_5,
+.exercise_6,
+.exercise_7,
+.exercise_8,
+.exercise_9,
+.exercise_10,
+.exercise_11,
+.exercise_12{
+font-size: 30px;
+color: white;
+margin: 20px;
+padding: 25px;
+}
+.menu_uno{
+
+}
+.menu li,
+.menu_two li{
+	font-size: 20px;
+	font-weight: 700;
+	margin:00px 0px 2px 20px;
+}
+.menu li{
+background: url('../img/touch_app_24px.png') 100px 0 no-repeat;
+}
+.menu_two li{
+background: url('../img/touch_app_24px.png') 153px 0 no-repeat;
+}
+
+.exercise_1 {
+   background-color: red;
+}
+
+.exercise_2 {
+   background-image: url('../img/Image\ 1.png');
+}
+
+.exercise_3 {
+   background: linear-gradient(45deg,
+	rgb(223, 154, 61) 26%,
+	rgb(114, 82, 182) 61%) ;
+}
+
+.exercise_4 {
+   background: green;
+   background-image: url('../img/ikon.png');
+   background-repeat: repeat;
+}
+
+.exercise_5 {
+   background: greenyellow url('../img/ikon.png') 100% 32px no-repeat;
+}
+
+.exercise_6 {
+	background: green url('../img/Image 1.png') 50% 50% / cover no-repeat;
+}
+
+.exercise_7 {
+	background: yellow url('../img/Image 1.png') 50% 50% no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+.exercise_8 {
+	background: linear-gradient(0deg, rgba(30, 87, 153, 0.44) 7.25%, rgba(68, 107, 132, 0.44) 54.75%, rgba(68, 107, 132, 0.44) 100%), url('../img/ikon.png') 0 0 repeat, green url('../img/Image 1.png') 0 0 repeat;
+}
